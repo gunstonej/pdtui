@@ -23,7 +23,7 @@ import pandas as pd
 import json
 import importlib.util
 from typing import Optional, List, Dict, Type, Any
-
+from markdown import markdown
 
 def class_obj_from_type_string(class_type_string: str) -> Type:
     """
@@ -255,7 +255,6 @@ def _init_widgets_from_data_objs(li_obj_ui):
     return [_init_widget_from_data_obj(obj_ui) for obj_ui in li_obj_ui]
 
 
-from markdown import markdown
 def _markdown(value='_Markdown_',
               **kwargs):
     """
@@ -325,3 +324,6 @@ if __name__ == "__main__":
     
 
     display(EditListOfDicts(li))
+# -
+
+

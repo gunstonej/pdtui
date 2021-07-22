@@ -10,8 +10,10 @@ dependencies:
   - numpy
   - pandas
   - jupyterlab>=3
+  - IPython
   - xmltodict
   - pydantic
   - jupytext
+  - markdown
   - pip:
     - ipyaggrid 
