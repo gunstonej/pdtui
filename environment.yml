@@ -1,0 +1,16 @@
+name: pdtui
+# channels priority
+# see https://bioconda.github.io/
+# conda-forge has highest prioriy
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.7
+  - numpy
+  - pandas
+  - jupyterlab>=3
+  - xmltodict
+  - jupytext
+  - pip:
+    - ipyaggrid 

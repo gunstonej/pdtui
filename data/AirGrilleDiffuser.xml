@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pdt pdtid="40" pds="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pdt.xsd">
+  <header>
+    <templateName>Air Grille Diffuser</templateName>
+    <templateCategory>Air Grille/Diffuser</templateCategory>
+    <templateVersion>v1</templateVersion>
+    <categoryDescription>Supply and extract air terminals (excluding external louvres &amp; transfer grilles)</categoryDescription>
+    <classificationSystem>Uniclass2015</classificationSystem>
+    <classification>Pr_70_65_04</classification>
+    <suitabilityForUse>Approved</suitabilityForUse>
+    <templateCustodian>CIBSE</templateCustodian>
+    <IfcEntityType>IfcAirTerminalType</IfcEntityType>
+    <IfcEntityTypeEnum>DIFFUSER</IfcEntityTypeEnum>
+  </header>
+  <params>
+    <parameter id="1" isInstance="false">
+      <name idx="1">Manufacturer</name>
+      <description>The Manufacturer of this particular Product</description>
+      <guid source="bsDD">929bda00-d1ec-11e1-8000-00215ad4efdf</guid>
+      <section idx="1">Manufacturer Data</section>
+      <category>COBie Data</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>This is a COBie field, other fields will be required in final PDTs</notes>
+      <value/>
+    </parameter>
+    <parameter id="2" isInstance="false">
+      <name idx="2">Manufacturer Website</name>
+      <description></description>
+      <guid source="bsDD">2e28aa00-71ac-4225-85be-b9fc09e4484e</guid>
+      <section idx="1">Manufacturer Data</section>
+      <category>Specifications</category>
+      <units type="URL" enum="false">
+        <unitOpt conversion="1">URL</unitOpt>
+      </units>
+      <notes></notes>
+      <value/>
+    </parameter>
+    <parameter id="3" isInstance="false">
+      <name idx="3">Product Range</name>
+      <description></description>
+      <guid source="bsDD">904d10a4-dabe-4ebe-a3d7-829809363445</guid>
+      <section idx="1">Manufacturer Data</section>
+      <category>Specifications</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes></notes>
+      <value/>
+    </parameter>
+    <parameter id="4" isInstance="false">
+      <name idx="4">Product Model Number</name>
+      <description></description>
+      <guid source="bsDD">08657381-7d09-469b-a51b-62d128b0f600</guid>
+      <section idx="1">Manufacturer Data</section>
+      <category>Specifications</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>Or Code</notes>
+      <value/>
+    </parameter>
+    <parameter id="5" isInstance="false">
+      <name idx="5">CE Mark</name>
+      <description></description>
+      <guid source="bsDD">36653080-2bd2-11dc-0000-00065b0526ef</guid>
+      <section idx="1">Manufacturer Data</section>
+      <category>Specifications</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>Number, Yes, No</notes>
+      <value/>
+    </parameter>
+    <parameter id="6" isInstance="false">
+      <name idx="6">Product Literature</name>
+      <description></description>
+      <guid source="bsDD">21adde3f-d8a8-40c8-ab4e-cdeb27346226</guid>
+      <section idx="1">Manufacturer Data</section>
+      <category>Specifications</category>
+      <units type="URL" enum="false">
+        <unitOpt conversion="1">URL</unitOpt>
+      </units>
+      <notes></notes>
+      <value/>
+    </parameter>
+    <parameter id="7" isInstance="false">
+      <name idx="7">Features</name>
+      <description></description>
+      <guid source="bsDD">629aba07-a368-41bc-a3d9-18b6e8d86058</guid>
+      <section idx="1">Manufacturer Data</section>
+      <category>COBie Data</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>This is a COBie field, other fields will be required in final PDTs</notes>
+      <value/>
+    </parameter>
+    <parameter id="372" isInstance="false">
+      <name idx="8">Face Type</name>
+      <description></description>
+      <guid source="bsDD">7b92c300-d1bf-11e1-8000-00215ad4efdf</guid>
+      <section idx="2">Construction Data</section>
+      <category>Specifications</category>
+      <units type="Enumeration" enum="false">
+        <unitOpt conversion="1">Enumeration</unitOpt>
+      </units>
+      <notes></notes>
+      <value>
+        <enumItem>FourWayPattern</enumItem>
+        <enumItem>SingleDeflection</enumItem>
+        <enumItem>DoubleDeflection</enumItem>
+        <enumItem>SightProof</enumItem>
+        <enumItem>EggCrate</enumItem>
+        <enumItem>Perforated</enumItem>
+        <enumItem>Louvered</enumItem>
+        <enumItem>High induction slot</enumItem>
+        <enumItem>Other</enumItem>
+        <enumItem>NotKnown</enumItem>
+        <enumItem>Unset</enumItem>
+      </value>
+    </parameter>
+    <parameter id="9" isInstance="false">
+      <name idx="9">Shape</name>
+      <description></description>
+      <guid source="bsDD">c1b014a1-8423-430a-b617-f0b44ebd8bb6</guid>
+      <section idx="2">Construction Data</section>
+      <category>COBie Data</category>
+      <units type="Enumeration" enum="false">
+        <unitOpt conversion="1">Enumeration</unitOpt>
+      </units>
+      <notes>This is a COBie field, other fields will be required in final PDTs</notes>
+      <value>
+        <enumItem>Round</enumItem>
+        <enumItem>Rectangular</enumItem>
+        <enumItem>Square</enumItem>
+        <enumItem>Slot</enumItem>
+        <enumItem>Other</enumItem>
+        <enumItem>NotKnown</enumItem>
+        <enumItem>Unset</enumItem>
+      </value>
+    </parameter>
+    <parameter id="373" isInstance="false">
+      <name idx="10">Trim</name>
+      <description></description>
+      <guid source="bsDD">f94672f8-c9d0-11db-0000-005056c00008</guid>
+      <section idx="2">Construction Data</section>
+      <category>Specifications</category>
+      <units type="Enumeration" enum="false">
+        <unitOpt conversion="1">Enumeration</unitOpt>
+      </units>
+      <notes></notes>
+      <value>
+        <enumItem>Flange</enumItem>
+        <enumItem>Plate</enumItem>
+        <enumItem>None</enumItem>
+        <enumItem>Other</enumItem>
+        <enumItem>NotKnown</enumItem>
+        <enumItem>Unset</enumItem>
+      </value>
+    </parameter>
+    <parameter id="374" isInstance="false">
+      <name idx="11">Trim Material</name>
+      <description></description>
+      <guid source="bsDD">4cb16c10-e204-4e8c-9dfe-0152132853d2</guid>
+      <section idx="2">Construction Data</section>
+      <category>Specifications</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>e.g. Aluminium, Galvanised MS Steel, Stainless Steel, Plastic, etc.</notes>
+      <value/>
+    </parameter>
+    <parameter id="805" isInstance="false">
+      <name idx="12">Trim Finish</name>
+      <description></description>
+      <guid source="BimHawk">92db7ded-05b2-4d72-aa5b-95d770224c90</guid>
+      <section idx="2">Construction Data</section>
+      <category>Specifications</category>
+      <units type="Enumeration" enum="false">
+        <unitOpt conversion="1">Enumeration</unitOpt>
+      </units>
+      <notes>e.g. Natural, Painted, Anodised, etc.</notes>
+      <value>
+        <enumItem>Annodized</enumItem>
+        <enumItem>Painted</enumItem>
+        <enumItem>Milled</enumItem>
+        <enumItem>None</enumItem>
+        <enumItem>Other</enumItem>
+        <enumItem>NotKnown</enumItem>
+        <enumItem>Unset</enumItem>
+      </value>
+    </parameter>
+    <parameter id="376" isInstance="false">
+      <name idx="13">Trim Colour</name>
+      <description></description>
+      <guid source="BimHawk">4211d862-4567-4918-ada2-b1679191b48f</guid>
+      <section idx="2">Construction Data</section>
+      <category>Specifications</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>e.g. Natural (Self-finish), or Colour(s) &amp; RAL(s)</notes>
+      <value/>
+    </parameter>
+    <parameter id="377" isInstance="false">
+      <name idx="14">Core Type</name>
+      <description></description>
+      <guid source="bsDD">070c5400-d1c0-11e1-8000-00215ad4efdf</guid>
+      <section idx="2">Construction Data</section>
+      <category>Specifications</category>
+      <units type="Enumeration" enum="false">
+        <unitOpt conversion="1">Enumeration</unitOpt>
+      </units>
+      <notes></notes>
+      <value>
+        <enumItem>ShutterBlade</enumItem>
+        <enumItem>CurvedBlade</enumItem>
+        <enumItem>Removable</enumItem>
+        <enumItem>Reversible</enumItem>
+        <enumItem>None</enumItem>
+        <enumItem>Other</enumItem>
+        <enumItem>NotKnown</enumItem>
+        <enumItem>Unset</enumItem>
+      </value>
+    </parameter>
+    <parameter id="378" isInstance="false">
+      <name idx="15">Core Material</name>
+      <description></description>
+      <guid source="bsDD">70e18600-7dcd-11df-0000-00215ad4efdf</guid>
+      <section idx="2">Construction Data</section>
+      <category>Specifications</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>e.g. Aluminium, Galvanised MS Steel, Stainless Steel, Plastic, etc.</notes>
+      <value/>
+    </parameter>
+    <parameter id="379" isInstance="false">
+      <name idx="16">Core Finish</name>
+      <description></description>
+      <guid source="BimHawk">77121761-313e-4697-b1d2-fa29ecd8869b</guid>
+      <section idx="2">Construction Data</section>
+      <category>Specifications</category>
+      <units type="Enumeration" enum="false">
+        <unitOpt conversion="1">Enumeration</unitOpt>
+      </units>
+      <notes></notes>
+      <value>
+        <enumItem>Annodized</enumItem>
+        <enumItem>Painted</enumItem>
+        <enumItem>None</enumItem>
+        <enumItem>Other</enumItem>
+        <enumItem>NotKnown</enumItem>
+        <enumItem>Unset</enumItem>
+      </value>
+    </parameter>
+    <parameter id="380" isInstance="false">
+      <name idx="17">Core Color</name>
+      <description></description>
+      <guid source="BimHawk">2a2f525f-6c98-43d1-baf5-eb4dd6d08fd8</guid>
+      <section idx="2">Construction Data</section>
+      <category>Specifications</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>e.g. Natural (Self-finish), or Colour(s) &amp; RAL(s)</notes>
+      <value/>
+    </parameter>
+    <parameter id="381" isInstance="false">
+      <name idx="18">Removable Core</name>
+      <description></description>
+      <guid source="BimHawk">94529ef0-b42d-4057-a91c-3ee7b9430935</guid>
+      <section idx="2">Construction Data</section>
+      <category>Specifications</category>
+      <units type="Y/N" enum="false">
+        <unitOpt conversion="1">Y/N</unitOpt>
+      </units>
+      <notes></notes>
+      <value>
+        <enumItem>Y</enumItem>
+        <enumItem>N</enumItem>
+      </value>
+    </parameter>
+    <parameter id="382" isInstance="false">
+      <name idx="19">Integral Plenum</name>
+      <description></description>
+      <guid source="BimHawk">99cdfdc6-4ea1-46a7-854f-8aeced3b7ad6</guid>
+      <section idx="2">Construction Data</section>
+      <category>Specifications</category>
+      <units type="Y/N" enum="false">
+        <unitOpt conversion="1">Y/N</unitOpt>
+      </units>
+      <notes></notes>
+      <value>
+        <enumItem>Y</enumItem>
+        <enumItem>N</enumItem>
+      </value>
+    </parameter>
+    <parameter id="383" isInstance="false">
+      <name idx="20">Integral Plenum Material</name>
+      <description></description>
+      <guid source="BimHawk">74255540-e98b-4a0f-9f35-93e83502d9bb</guid>
+      <section idx="2">Construction Data</section>
+      <category>Specifications</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>e.g. Aluminium, Galvanised MS Steel, Stainless Steel, etc.</notes>
+      <value/>
+    </parameter>
+    <parameter id="384" isInstance="false">
+      <name idx="21">Integral Volume Control Damper</name>
+      <description></description>
+      <guid source="BimHawk">1f338201-ea92-4d1d-b906-325871480065</guid>
+      <section idx="2">Construction Data</section>
+      <category>Specifications</category>
+      <units type="Y/N" enum="false">
+        <unitOpt conversion="1">Y/N</unitOpt>
+      </units>
+      <notes></notes>
+      <value>
+        <enumItem>Y</enumItem>
+        <enumItem>N</enumItem>
+      </value>
+    </parameter>
+    <parameter id="385" isInstance="false">
+      <name idx="22">Integral Volume Control Damper Type</name>
+      <description></description>
+      <guid source="BimHawk">8a2ed98c-6945-4567-99b6-ade808ef02bf</guid>
+      <section idx="2">Construction Data</section>
+      <category>Specifications</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes></notes>
+      <value/>
+    </parameter>
+    <parameter id="386" isInstance="false">
+      <name idx="23">Integral Volume Control Damper Material</name>
+      <description></description>
+      <guid source="BimHawk">4276fe2c-7c00-4d74-bfd5-42d1a8798b88</guid>
+      <section idx="2">Construction Data</section>
+      <category>Specifications</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>e.g. Aluminium, Galvanised MS Steel, Stainless Steel, Plastic, etc.</notes>
+      <value/>
+    </parameter>
+    <parameter id="387" isInstance="false">
+      <name idx="24">Integral Fire Damper</name>
+      <description></description>
+      <guid source="BimHawk">c14299b4-ebc0-4c26-a5e1-4139736bb29d</guid>
+      <section idx="2">Construction Data</section>
+      <category>Specifications</category>
+      <units type="Y/N" enum="false">
+        <unitOpt conversion="1">Y/N</unitOpt>
+      </units>
+      <notes></notes>
+      <value>
+        <enumItem>Y</enumItem>
+        <enumItem>N</enumItem>
+      </value>
+    </parameter>
+    <parameter id="388" isInstance="false">
+      <name idx="25">Fire Rating</name>
+      <description></description>
+      <guid source="BimHawk">e0e6d0b0-e31e-4020-ae22-9d49ce4a33c3</guid>
+      <section idx="2">Construction Data</section>
+      <category>Specifications</category>
+      <units type="Minutes" enum="false">
+        <unitOpt conversion="1">Minutes</unitOpt>
+      </units>
+      <notes>e.g. 60 minutes, 120 minutes</notes>
+      <value/>
+    </parameter>
+    <parameter id="15" isInstance="false">
+      <name idx="26">Overall Length</name>
+      <description></description>
+      <guid source="bsDD">0417f8fd-3f2e-4a64-9d71-cb73bdddea76</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="mm" enum="false">
+        <unitOpt conversion="1">mm</unitOpt>
+      </units>
+      <notes>Or Diameter. Minimum and maximum lengths available</notes>
+      <value/>
+    </parameter>
+    <parameter id="402" isInstance="false">
+      <name idx="27">Length</name>
+      <description></description>
+      <guid source="bsDD">f946bd30-c9d0-11db-0000-005056c00008</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="mm" enum="false">
+        <unitOpt conversion="1">mm</unitOpt>
+      </units>
+      <notes>Outlet Length or Diameter</notes>
+      <value/>
+    </parameter>
+    <parameter id="16" isInstance="false">
+      <name idx="28">Overall Width</name>
+      <description></description>
+      <guid source="bsDD">69337c00-d1f5-11e1-8000-00215ad4efdf</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="mm" enum="false">
+        <unitOpt conversion="1">mm</unitOpt>
+      </units>
+      <notes>Minimum and maximum widths available</notes>
+      <value/>
+    </parameter>
+    <parameter id="403" isInstance="false">
+      <name idx="29">Width</name>
+      <description></description>
+      <guid source="bsDD">f946c014-c9d0-11db-0000-005056c00008</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="mm" enum="false">
+        <unitOpt conversion="1">mm</unitOpt>
+      </units>
+      <notes>Outlet Width. For Circular Mark '0'</notes>
+      <value/>
+    </parameter>
+    <parameter id="17" isInstance="false">
+      <name idx="30">Overall Height</name>
+      <description></description>
+      <guid source="bsDD">f946ea1c-c9d0-11db-0000-005056c00008</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="mm" enum="false">
+        <unitOpt conversion="1">mm</unitOpt>
+      </units>
+      <notes>Minimum and maximum heights available</notes>
+      <value/>
+    </parameter>
+    <parameter id="18" isInstance="false">
+      <name idx="31">Gross Weight</name>
+      <description></description>
+      <guid source="bsDD">80ff3b2a-5e0e-45ad-b256-11f86f2d19a8</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="kg" enum="false">
+        <unitOpt conversion="1">kg</unitOpt>
+      </units>
+      <notes>Equates to Operating Weight</notes>
+      <value/>
+    </parameter>
+    <parameter id="19" isInstance="false">
+      <name idx="32">Shipping Weight</name>
+      <description></description>
+      <guid source="bsDD">27235cd5-ae0b-408d-afef-2b20c8144230</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="kg" enum="false">
+        <unitOpt conversion="1">kg</unitOpt>
+      </units>
+      <notes>Equates to dry weight of unit plus packaging allowance</notes>
+      <value/>
+    </parameter>
+    <parameter id="20" isInstance="false">
+      <name idx="33">Access Clearance Top</name>
+      <description></description>
+      <guid source="bsDD">b76a080c-7f43-4eba-a118-72c32898934f</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="mm" enum="false">
+        <unitOpt conversion="1">mm</unitOpt>
+      </units>
+      <notes>Access required for maintenance of this item</notes>
+      <value/>
+    </parameter>
+    <parameter id="21" isInstance="false">
+      <name idx="34">Access Clearance Bottom</name>
+      <description></description>
+      <guid source="bsDD">26707549-2383-4198-9214-9fde68dd633a</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="mm" enum="false">
+        <unitOpt conversion="1">mm</unitOpt>
+      </units>
+      <notes>Access required for maintenance of this item</notes>
+      <value/>
+    </parameter>
+    <parameter id="22" isInstance="false">
+      <name idx="35">Access Clearance Left</name>
+      <description></description>
+      <guid source="bsDD">adb71066-ff99-4493-a861-f8eef7ec8c2e</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="mm" enum="false">
+        <unitOpt conversion="1">mm</unitOpt>
+      </units>
+      <notes>Access required for maintenance of this item</notes>
+      <value/>
+    </parameter>
+    <parameter id="23" isInstance="false">
+      <name idx="36">Access Clearance Right</name>
+      <description></description>
+      <guid source="bsDD">54cdda0d-63dd-445c-8a12-9307b974c3c1</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="mm" enum="false">
+        <unitOpt conversion="1">mm</unitOpt>
+      </units>
+      <notes>Access required for maintenance of this item</notes>
+      <value/>
+    </parameter>
+    <parameter id="24" isInstance="false">
+      <name idx="37">Access Clearance Front</name>
+      <description></description>
+      <guid source="bsDD">aba304c0-45bc-4e69-9f17-f568224e84f2</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="mm" enum="false">
+        <unitOpt conversion="1">mm</unitOpt>
+      </units>
+      <notes>Access required for maintenance of this item</notes>
+      <value/>
+    </parameter>
+    <parameter id="331" isInstance="false">
+      <name idx="38">Access Clearance Rear</name>
+      <description></description>
+      <guid source="bsDD">c14bfce8-ed25-435a-8665-66bec868c677</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="mm" enum="false">
+        <unitOpt conversion="1">mm</unitOpt>
+      </units>
+      <notes>Access required for maintenance of this item</notes>
+      <value/>
+    </parameter>
+    <parameter id="404" isInstance="false">
+      <name idx="39">Neck Shape</name>
+      <description></description>
+      <guid source="BimHawk">f60c41bb-c65b-4726-9dab-03b12049405b</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="Enumeration" enum="false">
+        <unitOpt conversion="1">Enumeration</unitOpt>
+      </units>
+      <notes></notes>
+      <value>
+        <enumItem>Square</enumItem>
+        <enumItem>Rectangular</enumItem>
+        <enumItem>Round</enumItem>
+        <enumItem>Other</enumItem>
+        <enumItem>NotKnown</enumItem>
+        <enumItem>Unset</enumItem>
+      </value>
+    </parameter>
+    <parameter id="405" isInstance="false">
+      <name idx="40">Neck Length</name>
+      <description></description>
+      <guid source="BimHawk">72ceb07a-767f-4d8b-a3d3-c68056117590</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="mm" enum="false">
+        <unitOpt conversion="1">mm</unitOpt>
+      </units>
+      <notes>Or Diameter</notes>
+      <value/>
+    </parameter>
+    <parameter id="406" isInstance="false">
+      <name idx="41">Neck Width</name>
+      <description></description>
+      <guid source="BimHawk">61dca2e8-73d9-4a78-ac71-e4dfad0aefb6</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="mm" enum="false">
+        <unitOpt conversion="1">mm</unitOpt>
+      </units>
+      <notes>For Circular Mark '0'</notes>
+      <value/>
+    </parameter>
+    <parameter id="407" isInstance="false">
+      <name idx="42">Slot Width</name>
+      <description></description>
+      <guid source="bsDD">9107ed00-d1bf-11e1-8000-00215ad4efdf</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="mm" enum="false">
+        <unitOpt conversion="1">mm</unitOpt>
+      </units>
+      <notes>If Not Applicable Mark '0'</notes>
+      <value/>
+    </parameter>
+    <parameter id="408" isInstance="false">
+      <name idx="43">Slot Length</name>
+      <description></description>
+      <guid source="bsDD">96653780-d1bf-11e1-8000-00215ad4efdf</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="mm" enum="false">
+        <unitOpt conversion="1">mm</unitOpt>
+      </units>
+      <notes>If Not Applicable Mark '0'</notes>
+      <value/>
+    </parameter>
+    <parameter id="409" isInstance="false">
+      <name idx="44">Number of Slots</name>
+      <description></description>
+      <guid source="bsDD">9c5b1880-d1bf-11e1-8000-00215ad4efdf</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="Number" enum="false">
+        <unitOpt conversion="1">Number</unitOpt>
+      </units>
+      <notes>If Not Applicable Mark '0'</notes>
+      <value/>
+    </parameter>
+    <parameter id="410" isInstance="false">
+      <name idx="45">Effective Area</name>
+      <description></description>
+      <guid source="bsDD">49ce2c00-d1c0-11e1-8000-00215ad4efdf</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="m" enum="false">
+        <unitOpt conversion="1000">m</unitOpt>
+      </units>
+      <notes>At Maximum Length &amp; Width</notes>
+      <value/>
+    </parameter>
+    <parameter id="411" isInstance="false">
+      <name idx="46">Neck Area</name>
+      <description></description>
+      <guid source="bsDD">4470e180-d1c0-11e1-8000-00215ad4efdf</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="m" enum="false">
+        <unitOpt conversion="1000">m</unitOpt>
+      </units>
+      <notes>At Maximum Length &amp; Width</notes>
+      <value/>
+    </parameter>
+    <parameter id="412" isInstance="false">
+      <name idx="47">Plenum Length</name>
+      <description></description>
+      <guid source="BimHawk">41aff005-6c2b-4149-a299-ad6583924210</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="mm" enum="false">
+        <unitOpt conversion="1">mm</unitOpt>
+      </units>
+      <notes>If Not Applicable Mark '0'</notes>
+      <value/>
+    </parameter>
+    <parameter id="413" isInstance="false">
+      <name idx="48">Plenum Width</name>
+      <description></description>
+      <guid source="BimHawk">e7af878e-3ec9-4816-92f2-b36ed964d4dc</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="mm" enum="false">
+        <unitOpt conversion="1">mm</unitOpt>
+      </units>
+      <notes>If Not Applicable Mark '0'</notes>
+      <value/>
+    </parameter>
+    <parameter id="414" isInstance="false">
+      <name idx="49">Plenum Height</name>
+      <description></description>
+      <guid source="BimHawk">e678aa56-66c1-452d-9196-a16e342c6a9c</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="mm" enum="false">
+        <unitOpt conversion="1">mm</unitOpt>
+      </units>
+      <notes>If Not Applicable Mark '0'</notes>
+      <value/>
+    </parameter>
+    <parameter id="415" isInstance="false">
+      <name idx="50">Plenum Shape</name>
+      <description></description>
+      <guid source="BimHawk">4afd53c6-25f6-4a16-bd18-76c07855e588</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes></notes>
+      <value/>
+    </parameter>
+    <parameter id="416" isInstance="false">
+      <name idx="51">Plenum Acoustic Lining</name>
+      <description></description>
+      <guid source="BimHawk">66565cbc-4ad2-4171-ae75-5f519f1b7cc6</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="Y/N" enum="false">
+        <unitOpt conversion="1">Y/N</unitOpt>
+      </units>
+      <notes></notes>
+      <value>
+        <enumItem>Y</enumItem>
+        <enumItem>N</enumItem>
+      </value>
+    </parameter>
+    <parameter id="417" isInstance="false">
+      <name idx="52">Number of Duct Connections</name>
+      <description></description>
+      <guid source="BimHawk">a5296301-5860-42c3-8010-3da91dd468e1</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="Number" enum="false">
+        <unitOpt conversion="1">Number</unitOpt>
+      </units>
+      <notes></notes>
+      <value/>
+    </parameter>
+    <parameter id="418" isInstance="false">
+      <name idx="53">Duct Connection Shape</name>
+      <description></description>
+      <guid source="BimHawk">86847019-bbfc-4a4e-b0dc-925a4ab8cb50</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="Enumeration" enum="false">
+        <unitOpt conversion="1">Enumeration</unitOpt>
+      </units>
+      <notes></notes>
+      <value>
+        <enumItem>Rectangular</enumItem>
+        <enumItem>Round</enumItem>
+        <enumItem>Oval</enumItem>
+      </value>
+    </parameter>
+    <parameter id="419" isInstance="false">
+      <name idx="54">Duct Connection Height</name>
+      <description></description>
+      <guid source="BimHawk">f505f3ad-5d54-4db0-ac40-535b10edf989</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="mm" enum="false">
+        <unitOpt conversion="1">mm</unitOpt>
+      </units>
+      <notes>Duct Connection(s) Height (or Diameter)</notes>
+      <value/>
+    </parameter>
+    <parameter id="420" isInstance="false">
+      <name idx="55">Duct Connection Width</name>
+      <description></description>
+      <guid source="BimHawk">1ee5fa1c-e70b-432f-8449-1b31e4596b93</guid>
+      <section idx="3">Dimensional Data</section>
+      <category>Specifications</category>
+      <units type="mm" enum="false">
+        <unitOpt conversion="1">mm</unitOpt>
+      </units>
+      <notes>If Not Applicable Mark '0'</notes>
+      <value/>
+    </parameter>
+    <parameter id="421" isInstance="false">
+      <name idx="56">Air Flowrate</name>
+      <description></description>
+      <guid source="BimHawk">e5e43798-365c-434d-a4a4-d4acfdffa556</guid>
+      <section idx="4">Performance Data</section>
+      <category>Specifications</category>
+      <units type="AirFlowRate" enum="true">
+        <unitOpt conversion="1">m3/h</unitOpt>
+        <unitOpt conversion="1">m/s</unitOpt>
+      </units>
+      <notes>Air Flowrate at Max Length x Width. Air flowrate range within which the air terminal is designed to operate</notes>
+      <value/>
+    </parameter>
+    <parameter id="422" isInstance="false">
+      <name idx="57">Temperature Range</name>
+      <description></description>
+      <guid source="BimHawk">5e588cf6-8b51-46fc-ba2e-ec60c200c922</guid>
+      <section idx="4">Performance Data</section>
+      <category>Specifications</category>
+      <units type="DegC" enum="false">
+        <unitOpt conversion="1">DegC</unitOpt>
+      </units>
+      <notes>Temperature range within which the air terminal is designed to operate</notes>
+      <value/>
+    </parameter>
+    <parameter id="423" isInstance="false">
+      <name idx="58">Throw Length</name>
+      <description></description>
+      <guid source="bsDD">8487ce6c-32db-4f1e-a669-9f72de20268c</guid>
+      <section idx="4">Performance Data</section>
+      <category>Specifications</category>
+      <units type="m" enum="false">
+        <unitOpt conversion="1000">m</unitOpt>
+      </units>
+      <notes>ThrowLength at Max. Length x Width. Distance to 0.25m/s at maximum flow. If not applicable Mark '0'</notes>
+      <value/>
+    </parameter>
+    <parameter id="424" isInstance="false">
+      <name idx="59">Pressure Drop</name>
+      <description></description>
+      <guid source="bsDD">3a9aae80-d1bf-11e1-8000-00215ad4efdf</guid>
+      <section idx="4">Performance Data</section>
+      <category>Specifications</category>
+      <units type="Pa" enum="false">
+        <unitOpt conversion="1">Pa</unitOpt>
+      </units>
+      <notes>At Maximum Air Flowrate (above)</notes>
+      <value/>
+    </parameter>
+    <parameter id="425" isInstance="false">
+      <name idx="60">Air Diffusion Performance Index</name>
+      <description></description>
+      <guid source="bsDD">ddebc380-d1bf-11e1-8000-00215ad4efdf</guid>
+      <section idx="4">Performance Data</section>
+      <category>Specifications</category>
+      <units type="Not defined" enum="false">
+        <unitOpt conversion="1">Not defined</unitOpt>
+      </units>
+      <notes>As ASHRAE definition. The Air Diffusion Performance Index (ADPI) is used for cooling mode conditions. If several measurements of air velocity and air temperature are made throughout the occupied zone of a space, the ADPI is the percentage of locations where measurements were taken that meet the specifications for effective draft temperature and air velocity.</notes>
+      <value/>
+    </parameter>
+    <parameter id="426" isInstance="false">
+      <name idx="61">Noise Level</name>
+      <description></description>
+      <guid source="bsDD">6aba6d80-8134-11e0-0000-00215ad4efdf</guid>
+      <section idx="4">Performance Data</section>
+      <category>Specifications</category>
+      <units type="dB (SWL)" enum="false">
+        <unitOpt conversion="1">dB (SWL)</unitOpt>
+      </units>
+      <notes>At median Air Flowrate</notes>
+      <value/>
+    </parameter>
+    <parameter id="396" isInstance="false">
+      <name idx="62">Air Flow Type</name>
+      <description></description>
+      <guid source="BimHawk">1c92ffcf-2906-4f6d-96bb-58c4b86f66ce</guid>
+      <section idx="6">Application Data</section>
+      <category>Specifications</category>
+      <units type="Enumeration" enum="false">
+        <unitOpt conversion="1">Enumeration</unitOpt>
+      </units>
+      <notes>"Multipurpose" can be Supply, Extract or Return.</notes>
+      <value>
+        <enumItem>Supply</enumItem>
+        <enumItem>Extract</enumItem>
+        <enumItem>Return</enumItem>
+        <enumItem>Multipurpose</enumItem>
+        <enumItem>Other</enumItem>
+        <enumItem>NotKnown</enumItem>
+        <enumItem>Unset</enumItem>
+      </value>
+    </parameter>
+    <parameter id="397" isInstance="false">
+      <name idx="63">Application</name>
+      <description></description>
+      <guid source="BimHawk">fae7c8ba-8ac1-444c-8ca9-38d8ac11d7a1</guid>
+      <section idx="6">Application Data</section>
+      <category>Specifications</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>e.g. floor, ceiling, wall, door, duct, etc.</notes>
+      <value/>
+    </parameter>
+    <parameter id="398" isInstance="false">
+      <name idx="64">MountingType</name>
+      <description></description>
+      <guid source="bsDD">f6f47480-d1bf-11e1-8000-00215ad4efdf</guid>
+      <section idx="6">Application Data</section>
+      <category>Specifications</category>
+      <units type="Enumeration" enum="false">
+        <unitOpt conversion="1">Enumeration</unitOpt>
+      </units>
+      <notes>e.g. Surface, Flat Flush, etc.</notes>
+      <value>
+        <enumItem>Surface</enumItem>
+        <enumItem>FlatFlush</enumItem>
+        <enumItem>LayIn</enumItem>
+        <enumItem>Other</enumItem>
+        <enumItem>NotKnown</enumItem>
+        <enumItem>Unset</enumItem>
+      </value>
+    </parameter>
+    <parameter id="399" isInstance="false">
+      <name idx="65">Flange Type</name>
+      <description></description>
+      <guid source="BimHawk">5d459114-03b9-48f0-94ca-dc01a9bbd129</guid>
+      <section idx="6">Application Data</section>
+      <category>Specifications</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>Or Border Type</notes>
+      <value/>
+    </parameter>
+    <parameter id="400" isInstance="false">
+      <name idx="66">Flow Pattern</name>
+      <description></description>
+      <guid source="bsDD">a250f980-d1bf-11e1-8000-00215ad4efdf</guid>
+      <section idx="6">Application Data</section>
+      <category>Specifications</category>
+      <units type="Enumeration" enum="false">
+        <unitOpt conversion="1">Enumeration</unitOpt>
+      </units>
+      <notes></notes>
+      <value>
+        <enumItem>1Way</enumItem>
+        <enumItem>2Way</enumItem>
+        <enumItem>3Way</enumItem>
+        <enumItem>4Way</enumItem>
+        <enumItem>Radial</enumItem>
+        <enumItem>Swirl</enumItem>
+        <enumItem>Displacment</enumItem>
+        <enumItem>Jet</enumItem>
+        <enumItem>Other</enumItem>
+        <enumItem>NotKnown</enumItem>
+        <enumItem>Unset</enumItem>
+      </value>
+    </parameter>
+    <parameter id="401" isInstance="false">
+      <name idx="67">Discharge Direction</name>
+      <description></description>
+      <guid source="bsDD">c6acd600-d1bf-11e1-8000-00215ad4efdf</guid>
+      <section idx="6">Application Data</section>
+      <category>Specifications</category>
+      <units type="Enumeration" enum="false">
+        <unitOpt conversion="1">Enumeration</unitOpt>
+      </units>
+      <notes></notes>
+      <value>
+        <enumItem>parallel</enumItem>
+        <enumItem>perpendicular</enumItem>
+        <enumItem>adjustable</enumItem>
+        <enumItem>other</enumItem>
+        <enumItem>notknown</enumItem>
+        <enumItem>unset</enumItem>
+      </value>
+    </parameter>
+    <parameter id="389" isInstance="false">
+      <name idx="68">Volume Control Damper</name>
+      <description></description>
+      <guid source="BimHawk">a5fc1524-9eb1-4874-9eae-1f9a2fa5653e</guid>
+      <section idx="18">Accessories</section>
+      <category>Specifications</category>
+      <units type="Y/N" enum="false">
+        <unitOpt conversion="1">Y/N</unitOpt>
+      </units>
+      <notes></notes>
+      <value>
+        <enumItem>Y</enumItem>
+        <enumItem>N</enumItem>
+      </value>
+    </parameter>
+    <parameter id="390" isInstance="false">
+      <name idx="69">Fire Damper</name>
+      <description></description>
+      <guid source="BimHawk">54c9b3c4-4a2f-4e5d-88b7-295884e49c8f</guid>
+      <section idx="18">Accessories</section>
+      <category>Specifications</category>
+      <units type="Y/N" enum="false">
+        <unitOpt conversion="1">Y/N</unitOpt>
+      </units>
+      <notes></notes>
+      <value>
+        <enumItem>Y</enumItem>
+        <enumItem>N</enumItem>
+      </value>
+    </parameter>
+    <parameter id="391" isInstance="false">
+      <name idx="70">Intumescent Block</name>
+      <description></description>
+      <guid source="BimHawk">45342d6e-748d-4a81-bbd5-fdb9954686c5</guid>
+      <section idx="18">Accessories</section>
+      <category>Specifications</category>
+      <units type="Y/N" enum="false">
+        <unitOpt conversion="1">Y/N</unitOpt>
+      </units>
+      <notes></notes>
+      <value>
+        <enumItem>Y</enumItem>
+        <enumItem>N</enumItem>
+      </value>
+    </parameter>
+    <parameter id="392" isInstance="false">
+      <name idx="71">Plenum</name>
+      <description></description>
+      <guid source="bsDD">5f37b08a-6162-11e1-8000-00215ad4efdf</guid>
+      <section idx="18">Accessories</section>
+      <category>Specifications</category>
+      <units type="Y/N" enum="false">
+        <unitOpt conversion="1">Y/N</unitOpt>
+      </units>
+      <notes></notes>
+      <value>
+        <enumItem>Y</enumItem>
+        <enumItem>N</enumItem>
+      </value>
+    </parameter>
+    <parameter id="393" isInstance="false">
+      <name idx="72">Blanking Plates</name>
+      <description></description>
+      <guid source="BimHawk">98c74555-2069-493c-ad1b-b4f403ee5a07</guid>
+      <section idx="18">Accessories</section>
+      <category>Specifications</category>
+      <units type="Y/N" enum="false">
+        <unitOpt conversion="1">Y/N</unitOpt>
+      </units>
+      <notes></notes>
+      <value>
+        <enumItem>Y</enumItem>
+        <enumItem>N</enumItem>
+      </value>
+    </parameter>
+    <parameter id="394" isInstance="false">
+      <name idx="73">Concealed Fixings</name>
+      <description></description>
+      <guid source="BimHawk">c5f03967-854f-4201-ac66-abb92924e294</guid>
+      <section idx="18">Accessories</section>
+      <category>Specifications</category>
+      <units type="Y/N" enum="false">
+        <unitOpt conversion="1">Y/N</unitOpt>
+      </units>
+      <notes></notes>
+      <value>
+        <enumItem>Y</enumItem>
+        <enumItem>N</enumItem>
+      </value>
+    </parameter>
+    <parameter id="395" isInstance="false">
+      <name idx="74">Rear Deflection Blades</name>
+      <description></description>
+      <guid source="BimHawk">b70a5cf5-84d0-4fa8-887f-332c1f6d34a2</guid>
+      <section idx="18">Accessories</section>
+      <category>Specifications</category>
+      <units type="Y/N" enum="false">
+        <unitOpt conversion="1">Y/N</unitOpt>
+      </units>
+      <notes></notes>
+      <value>
+        <enumItem>Y</enumItem>
+        <enumItem>N</enumItem>
+      </value>
+    </parameter>
+    <parameter id="370" isInstance="false">
+      <name idx="75">Embodied Carbon</name>
+      <description></description>
+      <guid source="BimHawk">e8bbb01c-35d1-46e7-af17-c3edd601307e</guid>
+      <section idx="201">Sustainability</section>
+      <category>Sustainable Material BREEAM etc</category>
+      <units type="kgCO2e" enum="false">
+        <unitOpt conversion="1">kgCO2e</unitOpt>
+      </units>
+      <notes>Awaiting Industry Standard</notes>
+      <value/>
+    </parameter>
+    <parameter id="37" isInstance="false">
+      <name idx="76">Life Cycle Analysis</name>
+      <description></description>
+      <guid source="bsDD">c12e04ee-6ef1-4e82-90c3-d20ff522a1f2</guid>
+      <section idx="201">Sustainability</section>
+      <category>Sustainable Material BREEAM etc</category>
+      <units type="Number" enum="false">
+        <unitOpt conversion="1">Number</unitOpt>
+      </units>
+      <notes>Awaiting Industry Standard</notes>
+      <value/>
+    </parameter>
+    <parameter id="38" isInstance="false">
+      <name idx="77">Location of Manufacturer</name>
+      <description></description>
+      <guid source="BimHawk">bd706975-43ad-48f8-a296-b2a33cc64e22</guid>
+      <section idx="201">Sustainability</section>
+      <category>Sustainable Material BREEAM etc</category>
+      <units type="GridRef" enum="false">
+        <unitOpt conversion="1">GridRef</unitOpt>
+      </units>
+      <notes>Awaiting Industry Standard</notes>
+      <value/>
+    </parameter>
+    <parameter id="39" isInstance="false">
+      <name idx="78">Green Guide for Specification</name>
+      <description></description>
+      <guid source="bsDD">d2169bbc-3bfd-4acc-bbf5-05362363cc34</guid>
+      <section idx="201">Sustainability</section>
+      <category>Sustainable Material BREEAM etc</category>
+      <units type="Enumeration" enum="false">
+        <unitOpt conversion="1">Enumeration</unitOpt>
+      </units>
+      <notes>Awaiting Industry Standard</notes>
+      <value>
+        <enumItem>A</enumItem>
+        <enumItem>B</enumItem>
+        <enumItem>C</enumItem>
+        <enumItem>D</enumItem>
+        <enumItem>E</enumItem>
+      </value>
+    </parameter>
+    <parameter id="40" isInstance="false">
+      <name idx="79">Environmental Product Declaration</name>
+      <description></description>
+      <guid source="bsDD">6b044a8c-8376-45c4-bd8f-71c3f4bd10c1</guid>
+      <section idx="201">Sustainability</section>
+      <category>Sustainable Material BREEAM etc</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>3rd Party Verification</notes>
+      <value/>
+    </parameter>
+    <parameter id="41" isInstance="false">
+      <name idx="80">Responsible Sourcing of Materials</name>
+      <description></description>
+      <guid source="bsDD">02454a4e-e8d4-4191-a2d2-1307d12943f5</guid>
+      <section idx="201">Sustainability</section>
+      <category>Sustainable Material BREEAM etc</category>
+      <units type="Enumeration" enum="false">
+        <unitOpt conversion="1">Enumeration</unitOpt>
+      </units>
+      <notes>Awaiting Industry Standard</notes>
+      <value>
+        <enumItem>FSC</enumItem>
+        <enumItem>PEFC</enumItem>
+        <enumItem>EMS</enumItem>
+        <enumItem>GDES</enumItem>
+      </value>
+    </parameter>
+    <parameter id="42" isInstance="false">
+      <name idx="81">Energy Technology List</name>
+      <description></description>
+      <guid source="BimHawk">1cda39d7-bb8a-4f60-88bf-2c92c59f5f8d</guid>
+      <section idx="201">Sustainability</section>
+      <category>Sustainable Material ETL</category>
+      <units type="URL" enum="false">
+        <unitOpt conversion="1">URL</unitOpt>
+      </units>
+      <notes>Hyperlink to ETL webpage for product</notes>
+      <value/>
+    </parameter>
+    <parameter id="43" isInstance="false">
+      <name idx="82">Responsible Extraction of Materials</name>
+      <description></description>
+      <guid source="bsDD">3babaad6-7182-484c-a191-9ef47c13dbbc</guid>
+      <section idx="201">Sustainability</section>
+      <category>Sustainable Material LEED v.4</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>Awaiting Industry Standard</notes>
+      <value/>
+    </parameter>
+    <parameter id="44" isInstance="false">
+      <name idx="83">Material Ingredient Reporting</name>
+      <description></description>
+      <guid source="bsDD">818d1636-783f-4267-973c-58fb3a11bbff</guid>
+      <section idx="201">Sustainability</section>
+      <category>Sustainable Material LEED v.4</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>Awaiting Industry Standard</notes>
+      <value/>
+    </parameter>
+    <parameter id="667" isInstance="false">
+      <name idx="84">Operation and Maintenance Manual</name>
+      <description></description>
+      <guid source="BimHawk">d0829749-fe7c-47c3-b92f-d3426672c498</guid>
+      <section idx="202">Operations &amp; Maintenance</section>
+      <category>Facilities/Asset Management</category>
+      <units type="URL" enum="false">
+        <unitOpt conversion="1">URL</unitOpt>
+      </units>
+      <notes>Hyperlink to Manufacturer O&amp;M Data</notes>
+      <value/>
+    </parameter>
+    <parameter id="46" isInstance="false">
+      <name idx="85">Daily</name>
+      <description></description>
+      <guid source="bsDD">4d60383c-d18c-485d-97ac-61e58e3d170c</guid>
+      <section idx="202">Operations &amp; Maintenance</section>
+      <category>Facilities/Asset Management</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>Maintenance tasks or SFG20 codes</notes>
+      <value/>
+    </parameter>
+    <parameter id="47" isInstance="false">
+      <name idx="86">Weekly</name>
+      <description></description>
+      <guid source="bsDD">8c445ac0-47ab-49a2-a713-d65e9df05d1a</guid>
+      <section idx="202">Operations &amp; Maintenance</section>
+      <category>Facilities/Asset Management</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>Maintenance tasks or SFG20 codes</notes>
+      <value/>
+    </parameter>
+    <parameter id="371" isInstance="false">
+      <name idx="87">Monthly</name>
+      <description></description>
+      <guid source="BimHawk">3fc6c8e4-facd-45af-bbdc-126322058041</guid>
+      <section idx="202">Operations &amp; Maintenance</section>
+      <category>Facilities/Asset Management</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>Maintenance tasks or SFG20 codes. If Not Applicable Mark '0'</notes>
+      <value/>
+    </parameter>
+    <parameter id="48" isInstance="false">
+      <name idx="88">Quarterly</name>
+      <description></description>
+      <guid source="BimHawk">c8f61bf2-f46d-4d62-8a9d-afe308099f40</guid>
+      <section idx="202">Operations &amp; Maintenance</section>
+      <category>Facilities/Asset Management</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>Maintenance tasks or SFG20 codes</notes>
+      <value/>
+    </parameter>
+    <parameter id="49" isInstance="false">
+      <name idx="89">6 Monthly</name>
+      <description></description>
+      <guid source="BimHawk">1d86f1dd-7572-429c-a7b1-92e8c23ef408</guid>
+      <section idx="202">Operations &amp; Maintenance</section>
+      <category>Facilities/Asset Management</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes></notes>
+      <value/>
+    </parameter>
+    <parameter id="50" isInstance="false">
+      <name idx="90">Annually</name>
+      <description></description>
+      <guid source="BimHawk">0549c028-c2f2-4c51-9a31-eaa88180592c</guid>
+      <section idx="202">Operations &amp; Maintenance</section>
+      <category>Facilities/Asset Management</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes></notes>
+      <value/>
+    </parameter>
+    <parameter id="51" isInstance="false">
+      <name idx="91">Bespoke Timeframe</name>
+      <description></description>
+      <guid source="BimHawk">e2fe4f12-d251-45c7-8573-48d4518d6323</guid>
+      <section idx="202">Operations &amp; Maintenance</section>
+      <category>Facilities/Asset Management</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>Maintenance tasks or SFG20 codes</notes>
+      <value/>
+    </parameter>
+    <parameter id="52" isInstance="false">
+      <name idx="92">Maintenance Required 0 to 300hrs</name>
+      <description></description>
+      <guid source="BimHawk">97c6b16c-4750-4bad-b2ef-1a3f62d63401</guid>
+      <section idx="202">Operations &amp; Maintenance</section>
+      <category>Facilities/Asset Management</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>Maintenance tasks required during this time frame</notes>
+      <value/>
+    </parameter>
+    <parameter id="53" isInstance="false">
+      <name idx="93">Maintenance Required 301 to 600hrs</name>
+      <description></description>
+      <guid source="BimHawk">a3e00180-11bc-4fc1-963c-00a0cf5c704c</guid>
+      <section idx="202">Operations &amp; Maintenance</section>
+      <category>Facilities/Asset Management</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>Maintenance tasks required during this time frame</notes>
+      <value/>
+    </parameter>
+    <parameter id="54" isInstance="false">
+      <name idx="94">Maintenance Required 601 to 1000hrs</name>
+      <description></description>
+      <guid source="BimHawk">cc69d734-f9b6-4403-a595-e2741b514527</guid>
+      <section idx="202">Operations &amp; Maintenance</section>
+      <category>Facilities/Asset Management</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>Maintenance tasks required during this time frame</notes>
+      <value/>
+    </parameter>
+    <parameter id="55" isInstance="false">
+      <name idx="95">Maintenance Required 1001 to 2000hrs</name>
+      <description></description>
+      <guid source="BimHawk">1414a9bf-3837-4cf4-aecb-f5e35770c9b0</guid>
+      <section idx="202">Operations &amp; Maintenance</section>
+      <category>Facilities/Asset Management</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>Maintenance tasks required during this time frame</notes>
+      <value/>
+    </parameter>
+    <parameter id="56" isInstance="false">
+      <name idx="96">Maintenance Required 2001 to 4000hrs</name>
+      <description></description>
+      <guid source="BimHawk">e4e2f615-9c22-4cd5-8347-2496bfe67280</guid>
+      <section idx="202">Operations &amp; Maintenance</section>
+      <category>Facilities/Asset Management</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>Maintenance tasks required during this time frame</notes>
+      <value/>
+    </parameter>
+    <parameter id="57" isInstance="false">
+      <name idx="97">Maintenance Required 4001 to 8000hrs</name>
+      <description></description>
+      <guid source="BimHawk">e3a0f217-93bd-4d15-93e7-3ad33c3ffd30</guid>
+      <section idx="202">Operations &amp; Maintenance</section>
+      <category>Facilities/Asset Management</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>Maintenance tasks required during this time frame</notes>
+      <value/>
+    </parameter>
+    <parameter id="58" isInstance="false">
+      <name idx="98">Maintenance Required 8001 to 12000hrs</name>
+      <description></description>
+      <guid source="BimHawk">77e5f5d2-0821-4602-8d64-96dc037ec879</guid>
+      <section idx="202">Operations &amp; Maintenance</section>
+      <category>Facilities/Asset Management</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes>Maintenance tasks required during this time frame</notes>
+      <value/>
+    </parameter>
+    <parameter id="59" isInstance="false">
+      <name idx="99">Expected Life</name>
+      <description></description>
+      <guid source="bsDD">ae7c73bd-df81-4a62-bce8-f05b3751413d</guid>
+      <section idx="202">Operations &amp; Maintenance</section>
+      <category>Facilities/Asset Management</category>
+      <units type="Years" enum="false">
+        <unitOpt conversion="1">Years</unitOpt>
+      </units>
+      <notes></notes>
+      <value/>
+    </parameter>
+    <parameter id="60" isInstance="false">
+      <name idx="100">Warranty ID</name>
+      <description></description>
+      <guid source="bsDD">3ceb889e-7fe6-46cd-9f00-53ee0eb599c7</guid>
+      <section idx="202">Operations &amp; Maintenance</section>
+      <category>Facilities/Asset Management</category>
+      <units type="Text" enum="false">
+        <unitOpt conversion="1">Text</unitOpt>
+      </units>
+      <notes></notes>
+      <value/>
+    </parameter>
+  </params>
+</pdt>
