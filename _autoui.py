@@ -311,11 +311,3 @@ if __name__ == "__main__":
 # -
 
 
-
-ui.__dict__.keys()
-
-ui.li_obj_ui
-
-_init_ui_data_objs(li, li_types)
-
-
