@@ -59,13 +59,6 @@ class FloatText(BaseModel):
     data_type: str = 'None'
     widget_type: str = 'None'
         
-    @validator('value', always=True)
-    def make_float(cls, v):
-        if type(v) == int:
-            return float(v)
-        else:
-            return v
-        
     @validator('data_type', pre=True, always=True)
     def define_type(cls, v):
         return "<class '__main__.FloatText'>"
@@ -81,14 +74,6 @@ class FloatSlider(BaseModel):
     max: float
     data_type: str = 'None'
     widget_type: str = 'None'
-        
-    @validator('value', always=True)
-    def make_float(cls, v):
-        if type(v) == int:
-            return float(v)
-        else:
-            return v
-        
         
     @validator('data_type', pre=True, always=True)
     def define_type(cls, v):
@@ -146,7 +131,6 @@ class Checkbox(BaseModel):
         else:
             return v
 
-        
     @validator('data_type', pre=True, always=True)
     def define_type(cls, v):
         return "<class '__main__.Checkbox'>"
@@ -322,8 +306,16 @@ if __name__ == "__main__":
     print(Textarea(**li[6]).dict())
 
     
-
-    display(EditListOfDicts(li))
+    ui = EditListOfDicts(li)
+    display(ui)
 # -
+
+
+
+ui.__dict__.keys()
+
+ui.li_obj_ui
+
+_init_ui_data_objs(li, li_types)
 
 
